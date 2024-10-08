@@ -1,6 +1,6 @@
 package org.launchcode;
 
-public class MenuItems {
+public class MenuItem {
 
         // write your code here
         private double price;
@@ -8,7 +8,7 @@ public class MenuItems {
         private String category;
         private boolean isNew;
 
-        public MenuItems(double price, String description, String category) {
+        public MenuItem(double price, String description, String category) {
             this.price = price;
             this.description = description;
             this.category = category;
