@@ -14,7 +14,7 @@ class BalancedBracketsTest {
     public void emptyStringReturnsTrue() {
         assertTrue(BalancedBrackets.hasBalancedBrackets(""));
     }
-    
+
     @Test
         public void textStringReturnsTrue() {
         assertTrue(BalancedBrackets.hasBalancedBrackets("LaunchCode"));
